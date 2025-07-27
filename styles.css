@@ -1,0 +1,55 @@
+/*header */
+.logo-head{
+    font-family: "Roboto", sans-serif;
+    color: #4D5AE5;
+}
+.logo-header {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+}
+/* Portfolio */
+
+/* Hero */
+.Hero{
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+    color: rgb(255, 255, 255);
+    }
+.hero-h1 {
+    width: 496px; 
+    height: 120px;
+    top: 260px;
+    left: 472px; 
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-btn {
+    margin: 0 auto;
+    display: block;
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+   
+}
+/*benefits*/
+/*what we are doing*/
+/*Our Team*/
+/*footer*/
+.footer {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #2E2F42;
+    color: rgb(255, 255, 255); 
+    }
+.logo{
+    font-family: "Roboto", sans-serif;
+    color:#4D5AE5 ;
+}
+.logo-footer{
+    font-family: "Roboto", sans-serif;
+    color: #F4F4FD;
+}
+/*google fonts */
+/* font-family: "Roboto", sans-serif;*/
