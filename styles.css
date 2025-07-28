@@ -18,13 +18,17 @@ li {
     font-style: italic;
     color: #2E2F42;
 }
+.section-address{
+    font-style: normal;
+}
 /* Portfolio */
+
 .Portfolio {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
     color: var(--navy-blue);
 }
 /*contact */
@@ -34,7 +38,7 @@ li {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-
+    font-style: normal;
 }
 /* Hero */
 .Hero{
@@ -44,20 +48,22 @@ li {
     color: rgb(255, 255, 255);
     }
 .hero-h1 {
-    width: 496px; 
-    height: 120px;
-    top: 260px;
-    left: 472px; 
-
-    margin: 0 auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .hero-btn {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
     margin: 0 auto;
     display: block;
     color: #F4F4FD;
     background-color: #4D5AE5;
-   
+   cursor: pointer;
 }
 /*benefits*/
 
@@ -104,5 +110,11 @@ li {
     font-style: italic;
     color: #F4F4FD;
 }
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+   }
 /*google fonts */
-/* font-family:  font-family: "Raleway", sans-serif;*/
+/*font-family: "Raleway", sans-serif;*/
