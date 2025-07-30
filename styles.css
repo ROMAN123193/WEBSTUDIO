@@ -4,11 +4,17 @@
 .page{ 
     font-family: "Raleway", sans-serif;
 } 
-ul,
-li {
+ul, li, a {
+    color: #2E2F42;
+    padding: 0;
+    text-decoration: none;
     list-style: none;
-   
-} 
+}
+
+.section-address {
+    font-style: normal;
+}
+
 
 /*header */
 .logo-head{
@@ -18,18 +24,10 @@ li {
     font-style: italic;
     color: #2E2F42;
 }
-.section-address{
-    font-style: normal;
-}
-/* Portfolio */
 
-.Portfolio {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em; 
-    color: var(--navy-blue);
+.section-address{
+    text-decoration: none;
+    color:black
 }
 /*contact */
 .contact {
@@ -42,7 +40,7 @@ li {
 }
 /* Hero */
 .Hero{
-    width: 1440px;
+    width: 1550px;
     height: 600px;
     background-color: #2E2F42;
     color: rgb(255, 255, 255);
@@ -63,7 +61,17 @@ li {
     display: block;
     color: #F4F4FD;
     background-color: #4D5AE5;
-   cursor: pointer;
+    cursor: pointer;
+    transition: 2s;
+    justify-content: center;
+    align-items: center;         
+    border: 1px solid #E7E9FC;   
+}
+.hero-btn:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+    border-radius: 90%;
+    transition: 0,5s;
 }
 /*benefits*/
 
@@ -97,8 +105,8 @@ li {
     display: flex;
     flex-direction: column;;
     margin: 0 auto;
-    width: 1440px;
-    height: 312px;
+    width: 1550px;
+    height: 156px;
     background-color: #2E2F42;
     color: rgb(255, 255, 255); 
     }
@@ -114,7 +122,161 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.02em;
+          
+    
    }
 /*google fonts */
 /*font-family: "Raleway", sans-serif;*/
+/* Portfolio */
+.Portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em; 
+    color: #2E2F42;
+}
+/*Portfolio Filter */
+.portfolio-filter{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+/* Buttons */
+.button-all {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    width: 69px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+    border: 1px solid #E7E9FC; 
+    transition: 1s;    
+}
+.button-all:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+    border-radius: 90%;
+    transition: 2s;
+}
+.button-web-site{ 
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    width: 117px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+    border: 1px solid #E7E9FC;
+    transition: 2s;        
+}
+.button-web-site:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+    cursor: pointer;
+    border-radius: 95%;
+    transition: 2s;
+}
+.button-app{
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    line-height: 150%;
+    width: 78px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+    border: 1px solid #E7E9FC;   
+      
+}
+.button-app:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+    cursor: pointer;
+    border-radius: 90%;
+    transition: 1s;
+}
+.button-design {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    text-align: left;
+    line-height: 100px;
+    width: 78px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
+    letter-spacing: 0.04em;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+    border: 1px solid #E7E9FC;     
+}
+.button-design:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+    cursor: pointer;
+    border-radius: 90%;
+    transition: 1s;
+}
+.button-marketing{
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    line-height: 150%;
+    width: 126px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
+    letter-spacing: 0.04em;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+    border: 1px solid #E7E9FC;     
+}
+.button-marketing:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+    cursor: pointer;
+    border-radius: 90%;
+    transition: 1s;
+} 
+
+/* Team Member */
+.portfolio-item {   
+    width: 360px;
+    height: 300px;
+}
