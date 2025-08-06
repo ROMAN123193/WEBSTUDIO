@@ -1,4 +1,7 @@
 /* Global styles */
+:root{
+    --main-color-webstudio: #2E2F42;
+}
 /*page*/
 .page{ 
     font-family: "Raleway", 
@@ -91,7 +94,8 @@ ul, a {
 
 }
 /*what we are doing*/
-.whatarewedoing{font-weight: 700;
+.whatarewedoing{
+    font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
@@ -121,6 +125,7 @@ ul, a {
     background-color: #2E2F42;
     color: rgb(255, 255, 255); 
     }
+/*footer logo and background*/
 .logo{
 
     color:#4D5AE5 ;
@@ -133,9 +138,8 @@ ul, a {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-          
-    
-   }
+}
+/*footer end*/
 /*google fonts */
 /*font-family: "Raleway", sans-serif;*/
 /* Portfolio */
