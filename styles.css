@@ -1,11 +1,12 @@
 /* Global styles */
 :root{
     --main-color-webstudio: #2E2F42;
+    --benefits-text-color: #434455; /*and portfolio main text color*/
 }
+
 /*page*/
 .page{ 
-    font-family: "Raleway", 
-    sans-serif;
+    font-family: "Raleway",sans-serif;;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -51,7 +52,7 @@ ul, a {
 .Hero{
     width: 1550px;
     height: 600px;
-    background-color: #2E2F42;
+    background-color: var(--main-color-webstudio);
     color: rgb(255, 255, 255);
     }
     
@@ -86,13 +87,21 @@ ul, a {
 }
 /*hero button end*/
 /*text*/
-.benefits-h3{ 
+.benefits-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-
+    color: var(--benefits-text-color);
 }
+.benefits-paragraph{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--benefits-text-color);
+}
+
 /*what we are doing*/
 .whatarewedoing{
     font-weight: 700;
