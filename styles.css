@@ -2,17 +2,28 @@
 :root{
     --main-color-webstudio: #2E2F42;
     --benefits-text-color: #434455; /*and portfolio main text color*/
+    --font-family: "Raleway", sans-serif;
 }
 
 /*page*/
 .page{ 
-    font-family: "Raleway",sans-serif;;
+    font-family: var(--font-family);
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
 } 
 /*reset*/
-ul, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+ul,a{
     color: #2E2F42;
     padding: 0;
     text-decoration: none;
@@ -25,6 +36,7 @@ ul, a {
 /*reset end*/
 
 /*header */
+
 /*logo start*/
 .webstudio-logo{
     font-weight: 800;
@@ -114,6 +126,11 @@ ul, a {
 }
 .whatarewedoing-accent{
     color: #4D5AE5;
+}
+.What-images{
+    width: 360px;
+    height: 300px;                     
+    flex-wrap: wrap;       
 }
 /*Our Team*/
 .ourteam-h3{
